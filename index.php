@@ -6,8 +6,8 @@ require_once 'jwt/JWT.php';
 
 use \Firebase\JWT\JWT;
 class Zoom_Api {
-  private $zoom_api_key = 'BVGEucFzQlSVWye-wQlawA';
-  private $zoom_api_secret = 'YWnisZdSOepSSSMLo3dAme7yx57sIKyCoUVo';
+  private $zoom_api_key = 'api_key';
+  private $zoom_api_secret = 'api_secret';
   
   protected function sendRequest($data) {
     $request_url = 'https://api.zoom.us/v2/users/me/meetings';
